@@ -1,0 +1,111 @@
+.about-page {
+  padding-top: 40px; /* top padding for fixed navbar */
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+/* Video Section */
+.aboutus-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('../../assets/aboutus-bg.jpg') center/cover no-repeat;
+  min-height: 100vh; /* Ensures it takes full height of the viewport */
+  width: 100vw;       /* Ensures full width of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutus-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.aboutus-hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0077cc;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+/* Leadership */
+.leadership {
+  background-color: #f5faff;
+}
+
+.leaders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.leader-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.leader-card h3 {
+  font-size: 20px;
+  color: #005fa3;
+}
+
+.leader-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Values */
+.values-section {
+  background-color: #eaf6ff;
+}
+
+.values-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.values-section li {
+  font-size: 18px;
+  margin: 12px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

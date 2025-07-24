@@ -1,0 +1,60 @@
+<div class="page-container admissions-page">
+  <app-navbar></app-navbar>
+
+  <section class="admission-hero">
+    <div class="hero-content">
+        <h1>Admissions at BrightPath School</h1>
+        <p>Join our community of learners and start your child’s journey towards excellence.</p>
+    </div>
+  </section>
+
+  <section class="admissions-info">
+    <h2>Admission Process</h2>
+    <ol>
+      <li>Fill out the <a href="#application-form">application form</a>.</li>
+      <li>Submit required documents (birth certificate, previous report cards, etc.).</li>
+      <li>Attend an assessment or interview (if applicable).</li>
+      <li>Receive admission decision via email or phone.</li>
+      <li>Complete enrollment by submitting fees and registration forms.</li>
+    </ol>
+
+    <h2>Eligibility Criteria</h2>
+    <p>Our admissions are open to children aged 3 to 18 years, covering Pre-school to A-Levels.</p>
+
+    <h2>Application Form</h2>
+    <form id="application-form" class="application-form">
+      <label for="studentName">Student Name*</label>
+      <input type="text" id="studentName" name="studentName" required />
+
+      <label for="dob">Date of Birth*</label>
+      <input type="date" id="dob" name="dob" required />
+
+      <label for="grade">Applying For*</label>
+      <select id="grade" name="grade" required>
+        <option value="">Select Grade</option>
+        <option value="preschool">Pre-school</option>
+        <option value="matriculation">Matriculation</option>
+        <option value="olevels">O Levels</option>
+        <option value="alevels">A Levels</option>
+      </select>
+
+      <label for="parentName">Parent/Guardian Name*</label>
+      <input type="text" id="parentName" name="parentName" required />
+
+      <label for="contactEmail">Contact Email*</label>
+      <input type="email" id="contactEmail" name="contactEmail" required />
+
+      <label for="contactPhone">Contact Phone</label>
+      <input type="tel" id="contactPhone" name="contactPhone" />
+
+      <label for="additionalInfo">Additional Information</label>
+      <textarea id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+
+      <button type="submit" class="btn submit-btn">Submit Application</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 BrightPath School. All rights reserved.</p>
+  </footer>
+</div>

@@ -1,0 +1,152 @@
+.academics-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  padding-top: 40px;
+  background-color: #f9f9f9;
+}
+
+.academics-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('../../assets/academics-bg.jpg') center/cover no-repeat;
+  min-height: 100vh; /* Ensures it takes full height of the viewport */
+  width: 100vw;       /* Ensures full width of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.academics-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.academics-hero p {
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+/* Programs Section */
+.programs-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.programs-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.program {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: left;
+  background-color: #f3f3f3;
+  padding: 20px 30px;
+  border-left: 5px solid #0077cc;
+  border-radius: 8px;
+}
+
+.program h3 {
+  font-size: 22px;
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+/* Learning Approach */
+.approach-section {
+  padding: 60px 20px;
+  background-color: #e8f4ff;
+  text-align: center;
+}
+
+.approach-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #005fa3;
+}
+
+.approach-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Facilities */
+.facilities-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.facilities-section h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.facilities-section ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.facilities-section li {
+  font-size: 16px;
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.facilities-section li::before {
+  content: "✔";
+  color: #0077cc;
+  position: absolute;
+  left: 0;
+}
+
+/* Call to Action */
+.cta-academics {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-academics h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cta-academics p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-academics .btn {
+  background-color: white;
+  color: #0077cc;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.cta-academics .btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
